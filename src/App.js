@@ -3,9 +3,9 @@ import './App.css';
 import './image/grad_headshot.jpeg' 
 import { Link, Switch, Route } from 'react-router-dom';
 import Internship from './Components/Internship'
+import Project from './Components/Project'
 
-
-
+import {AiFillLinkedin, AiFillGithub} from "react-icons/ai" 
 
 function App() {
   return (
@@ -15,10 +15,21 @@ function App() {
 
         <h1>Andy Wu</h1>
         <h1>Links</h1>
-        <a href="https://www.linkedin.com/in/andywu-yale/">Linkedin</a>
-        <a href="Github">Github</a>
-        <img class="Headshot" src={require('./image/grad_headshot.jpeg')} alt="Headshot"></img>
-        <div>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/andywu-yale/">
+                <AiFillLinkedin />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/andywu8">
+              <AiFillGithub />
+            </a>
+          </li>
+        </ul>
+
+        <img class="Headshot hvr-float" src={require('./image/grad_headshot.jpeg')} alt="Headshot"></img>
+        <div> 
 
         </div>
         <h2>About Me</h2>
@@ -30,9 +41,10 @@ function App() {
         </ul>
         <p></p>
         <h1>Experience</h1>
-        <Internship title="Software Engineer Intern" company="Meta" />
+        <Internship class="hvr-float" title="Software Engineer Intern" company="Meta" img_src="/meta_logo.jpeg"/>
         <h1>Projects</h1>
-
+        <Project class="hvr-float" project_name="Mutuals" description="Match Making App that allows you to match friends of friends"/>
+        
       </body>
     </div>
   );

@@ -3,3 +3,8 @@
     background-color: white;
     color:black;
 }
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
+  transform: translateY(-8px);
+}
