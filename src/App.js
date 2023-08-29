@@ -4,29 +4,33 @@ import './image/grad_headshot.jpeg'
 import { Link, Switch, Route } from 'react-router-dom';
 import Internship from './Components/Internship'
 import Project from './Components/Project'
+import Navbar from './Components/Navbar'
 
 import {AiFillLinkedin, AiFillGithub} from "react-icons/ai" 
 
 function App() {
   return (
     <div className="App">
-
+      <Navbar />
       <body className="App-body">
+        
+        <section id="about-me">
+          <h1>Andy Wu</h1>
+          <h1>Links</h1>
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/andywu-yale/">
+                  <AiFillLinkedin />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/andywu8">
+                <AiFillGithub />
+              </a>
+            </li>
+          </ul>
+        </section>
 
-        <h1>Andy Wu</h1>
-        <h1>Links</h1>
-        <ul>
-          <li>
-            <a href="https://www.linkedin.com/in/andywu-yale/">
-                <AiFillLinkedin />
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/andywu8">
-              <AiFillGithub />
-            </a>
-          </li>
-        </ul>
 
         <img class="Headshot hvr-float" src={require('./image/grad_headshot.jpeg')} alt="Headshot"></img>
         <div> 

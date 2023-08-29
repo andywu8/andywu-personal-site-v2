@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
+import { BrowserRouter, Link } from 'react-router-dom';
+import './Navbar.css';
 export default class Nav extends React.Component {
   render() {    
     return (
@@ -12,13 +12,13 @@ export default class Nav extends React.Component {
           <div className="Nav__right">
             <ul className="Nav__item-wrapper">
               <li className="Nav__item">
-                <Link className="Nav__link" to="/path1">Link 1</Link>
+                <Link className="Nav__link" smooth spy to="/about-me">About Me</Link>
               </li>
               <li className="Nav__item">
-                <Link className="Nav__link" to="/path2">Link 2</Link>
+                <Link className="Nav__link" to="/path2">Experience</Link>
               </li>
               <li className="Nav__item">
-                <Link className="Nav__link" to="/path3">Link 3</Link>
+                <Link className="Nav__link" to="/path3">Projects</Link>
               </li>
             </ul>
           </div>

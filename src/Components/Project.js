@@ -1,5 +1,5 @@
 import React from 'react';
-import './Internship.css'
+import './Components.css';
 
 
 export default function Project(props) {
