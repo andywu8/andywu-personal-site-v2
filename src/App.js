@@ -5,46 +5,35 @@ import { Switch, Route } from 'react-router-dom';
 import Internship from './Components/Internship'
 import Project from './Components/Project'
 import Navbar from './Components/Navbar'
-
-
 import {AiFillLinkedin, AiFillGithub} from "react-icons/ai" 
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <Navbar/>
-      </header>
-
-      
       <body className="App-body">
-        
-        <section id="about">
-          <h1>Andy Wu</h1>
-          <h1>Links</h1>
-          <ul>
-            <li>
-              <a href="https://www.linkedin.com/in/andywu-yale/">
-                  <AiFillLinkedin />
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/andywu8">
-                <AiFillGithub />
-              </a>
-            </li>
-          </ul>
-        </section>
-
-
-        <img class="Headshot hvr-float" src={require('./image/grad_headshot.jpeg')} alt="Headshot"></img>
+        <Navbar/>
         <section id="about-me">
-          <h2>About Me</h2>
+        <h1>About Me</h1>
+          <h2>Hi I'm Andy Wu!</h2>
+          <img class="Headshot hvr-float" src={require('./image/grad_headshot.jpeg')} alt="Headshot"></img>
           <ul>
             <li>Passionate Reader</li>
             <li>Lover of all things sports: F1, Basketball, Esports</li>
             <li>Bunny afficionado</li>
             <li>Based in San Francisco</li>
+          </ul>
+          <ul>
+
+            <li>
+              <a href="https://www.linkedin.com/in/andywu-yale/">
+                  <AiFillLinkedin size={40}/>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/andywu8">
+                <AiFillGithub size={40}/>
+              </a>
+            </li>
           </ul>
         </section>
         <section id="experience">

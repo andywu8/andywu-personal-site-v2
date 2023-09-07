@@ -10,6 +10,7 @@ display: flex;
 align-items: center;
 position: -webkit-sticky;
 position: sticky;
+/* position: fixed */
 top: -5px;
 z-index: 2;
 height: 70px;
@@ -39,7 +40,7 @@ flex: 1;
 }
 
 .active {
-font-weight: 400;
+	font-weight: bold;
 }
 
 ul {

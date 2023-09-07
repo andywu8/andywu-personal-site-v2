@@ -7,8 +7,8 @@ export default function Project(props) {
     <div class={"Card "+props.class}>
         <h1>{props.project_name}</h1>
         <p>{props.description}</p>
-
         <p>Key Skills: {props.key_skills}</p>
+        <a href="/" class="btn">Learn More</a>
 
     </div>
     );
