@@ -37,8 +37,8 @@ function App() {
 
             
           </p>
+          <h5>Socials</h5>
           <ul>
-
             <li>
               <a href="https://www.linkedin.com/in/andywu-yale/">
                   <AiFillLinkedin size={40}/>
@@ -53,18 +53,18 @@ function App() {
         </section>
         <section id="experience">
           <h1>Experience</h1>
-          <Internship class="hvr-float" title="Software Engineer Intern" company="Meta" img_src="/meta_logo.jpeg"/>
-          <Internship class="hvr-float" title="Venture Associate" company="Tsai CITY" img_src="/tsai_city.png"/>
-          <Internship class="hvr-float" title="Software Engineer Intern" company="State Farm" img_src="/meta_logo.jpeg"/>
-          <Internship class="hvr-float" title="Machine Learning Research Intern" company="Yale Intelligent Computing Lab" img_src="/meta_logo.jpeg"/>
+          <Internship class="hvr-float" title="Software Engineer Intern" company="Meta" duration="May 2022 - Aug 2022" img_src="/meta_logo.jpeg"/>
+          <Internship class="hvr-float" title="Venture Associate" company="Tsai CITY" duration="September 2022 - May 2023" img_src=""/>
+          <Internship class="hvr-float" title="Software Engineer Intern" company="State Farm" duration="May 2021 - Aug 2021" img_src=""/>
+          <Internship class="hvr-float" title="Machine Learning Research Intern" company="Yale Intelligent Computing Lab" duration="May 2020 - Aug 2020" img_src=""/>
 
         </section>
         <section id="projects">
           <h1>Projects</h1>
-          <Project class="hvr-float" dates="2022" project_name="Mutuals" description="Match Making App that allows you to match friends of friends"/>
-          <Project class="hvr-float" dates="2022" project_name="Curbside" description="Match Making App that allows you to match friends of friends"/>
-          <Project class="hvr-float" dates="2022" project_name="Mutuals" description="Match Making App that allows you to match friends of friends"/>
-          <Project class="hvr-float" dates="2022" project_name="Simmer" description="Match Making App that allows you to match friends of friends"/>
+          <Project class="hvr-float" dates="2022" project_name="Mutuals" github_link="https://github.com/andywu8/cs419-finalproject" key_tech="Flask, SQL, Python, (HTML, CSS, JS)" description="Match Making App that allows you to match friends of friends"/>
+          <Project class="hvr-float" dates="2022" project_name="Curbside" github_link="https://github.com/BenTheNetizen/DiStasio-Project" key_tech="ReactJS, SQL" description="Google Docs for Doctors"/>
+          <Project class="hvr-float" dates="2021" project_name="Predict.ai" github_link="https://github.com/andywu8/hackday-predict.ai" key_tech="Django, Python" description="Full stack + ML app to predict car insurance by states"/>
+          <Project class="hvr-float" dates="2021" project_name="Simmer" github_link="https://github.com/andywu8/simmer" key_tech="ReactJS, Firebase" description="View Cooking Recipes"/>
 
         </section>
 

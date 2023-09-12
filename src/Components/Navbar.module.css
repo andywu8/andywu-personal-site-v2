@@ -52,9 +52,13 @@ padding: 0;
 }
 
 li {
-cursor: pointer;
+	display: inline-block;
+	align-items: center;
+	height: 20px;
+	/* color: green; will change color of text within the element */
+	cursor: pointer;
 }
 
 li:hover {
-text-decoration: underline;
+background-color: #0096FF;
 }

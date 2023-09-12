@@ -2,28 +2,15 @@
     display: inline-block;
     padding: 10px 20px;
     width: 80%;
-    
-    /* height: 50px; */
-    /* height: fit-content; */
     block-size: fit-content;
     padding:10px; 
     margin-top:10px; 
     height: 250px;
-
-    /* height:100px; */
-    /* display: block;
-    overflow: auto; */
     border-radius: 10px;
-    /* border-width: 100px; */
     border: 2px solid black;
     background-color: white;
     color:black;
 }
-/* .hvr-float:hover,
-.hvr-float:focus,
-.hvr-float:active {
-  transform: translateY(-8px);
-} */
 
 .left { 
   min-height: 100vh;
