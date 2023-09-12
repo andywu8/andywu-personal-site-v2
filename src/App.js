@@ -16,13 +16,27 @@ function App() {
         <h1>About Me</h1>
           <h2>Hi I'm Andy Wu!</h2>
           <img class="Headshot hvr-float" src={require('./image/grad_headshot.jpeg')} alt="Headshot"></img>
-          <p>I'm a new grad from Yale class of 2023. I graduated with a BS double majoring in Computer Science & Economics and Statistics & Data Science. I'm interested in software engineering, product management, and data science.</p>
+          <p>I'm a new grad double majoring in CS & Econ and S&DS from Yale class of 2023 looking for new grad SWE roles. I have experience in data science, ML, and full stack.</p>
           <ul>
-            <li>Passionate Reader</li>
-            <li>Lover of all things sports: F1, Basketball, Esports</li>
-            <li>Bunny afficionado</li>
-            <li>Based in San Francisco</li>
+            <li>
+              <a href="https://cpsc.yale.edu/">
+                B.S. in Computer Science & Economomics
+              </a>
+            </li>
+            <li>
+              <a href="https://statistics.yale.edu/">
+                B.A. in Statistics & Data Science
+              </a>
+            </li>
           </ul>
+          <p>
+            I love to read books, especially fantasy novels. Some of my favorite series are Harry Potter, Percy Jackson, and The Mistborn Series.
+            I love sports: F1, Basketball, and Esports. 
+            I love animals and am the proud owner of a bunny.
+            I'm currently based in San Francisco, but am open to relocation.
+
+            
+          </p>
           <ul>
 
             <li>
@@ -40,7 +54,7 @@ function App() {
         <section id="experience">
           <h1>Experience</h1>
           <Internship class="hvr-float" title="Software Engineer Intern" company="Meta" img_src="/meta_logo.jpeg"/>
-          <Internship class="hvr-float" title="Venture Associate" company="Tsai CITY" img_src="/meta_logo.jpeg"/>
+          <Internship class="hvr-float" title="Venture Associate" company="Tsai CITY" img_src="/tsai_city.png"/>
           <Internship class="hvr-float" title="Software Engineer Intern" company="State Farm" img_src="/meta_logo.jpeg"/>
           <Internship class="hvr-float" title="Machine Learning Research Intern" company="Yale Intelligent Computing Lab" img_src="/meta_logo.jpeg"/>
 
