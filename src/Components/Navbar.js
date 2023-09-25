@@ -14,13 +14,14 @@ export default class Nav extends React.Component {
               </Link>
             </li>
             <li>
-              <Link activeClassName={navbar_css.active} smooth spy to="experience">
-                Experience
-              </Link>
-            </li>
-            <li>
               <Link class={navbar_css.active} smooth spy to="projects">
                 Projects
+              </Link>
+            </li>
+
+            <li>
+              <Link activeClassName={navbar_css.active} smooth spy to="experience">
+                Experience
               </Link>
             </li>
           </ul>
