@@ -6,7 +6,12 @@ import Internship from './Components/Internship'
 import Project from './Components/Project'
 import Navbar from './Components/Navbar'
 import {AiFillLinkedin, AiFillGithub} from "react-icons/ai" 
-import {Button} from '@material-ui/core'; //importing material ui component
+import {Button} from '@material-ui/core'; 
+
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
+import { classes } from 'istanbul-lib-coverage';
+
 
 function App() {
   return (
@@ -14,6 +19,8 @@ function App() {
       <body className="App-body">
         <Navbar/>
         <section id="about-me">
+        <Button variant="outlined" color="primary">View Github Repo</Button>
+
         <h1>About Me</h1>
           <h2>Hi I'm Andy Wu!</h2>
           <img class="Headshot hvr-float" src={require('./image/grad_headshot.jpeg')} alt="Headshot"></img>
@@ -62,13 +69,25 @@ function App() {
         </section>
         <section id="projects">
           <h1>Projects</h1>
-          <Project class="hvr-float" dates="2022" project_name="Mutuals" github_link="https://github.com/andywu8/cs419-finalproject" key_tech="Flask, SQL, Python, (HTML, CSS, JS)" description="Match Making App that allows you to match friends of friends"/>
-          <Project class="hvr-float" dates="2022" project_name="Curbside" github_link="https://github.com/BenTheNetizen/DiStasio-Project" key_tech="ReactJS, SQL" description="Google Docs for Doctors"/>
-          <Project class="hvr-float" dates="2021" project_name="Predict.ai" github_link="https://github.com/andywu8/hackday-predict.ai" key_tech="Django, Python" description="Full stack + ML app to predict car insurance by states"/>
-          <Project class="hvr-float" dates="2021" project_name="Simmer" github_link="https://github.com/andywu8/simmer" key_tech="ReactJS, Firebase" description="View Cooking Recipes"/>
+          <div className={classes.root}>
+            <Grid container spacing = {3}>
+              <Grid item xs={4}>
+                <Project class="hvr-float" dates="2022" project_name="Mutuals" github_link="https://github.com/andywu8/cs419-finalproject" key_tech="Flask, SQL, Python, (HTML, CSS, JS)" description="Match Making App that allows you to match friends of friends"/>
+              </Grid>
+              <Grid item xs={4}>
+              <Project class="hvr-float" dates="2022" project_name="Curbside" github_link="https://github.com/BenTheNetizen/DiStasio-Project" key_tech="ReactJS, SQL" description="Google Docs for Doctors"/>
+              </Grid>
+              <Grid item xs={4}>
+              <Project class="hvr-float" dates="2021" project_name="Predict.ai" github_link="https://github.com/andywu8/hackday-predict.ai" key_tech="Django, Python" description="Full stack + ML app to predict car insurance by states"/>
+              </Grid>
+              <Grid item xs={4}>
+              <Project class="hvr-float" dates="2021" project_name="Simmer" github_link="https://github.com/andywu8/simmer" key_tech="ReactJS, Firebase" description="View Cooking Recipes"/>
+
+              </Grid>
+            </Grid>
+          </div>
 
         </section>
-
       </body>
     </div>
   );
