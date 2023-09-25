@@ -6,6 +6,7 @@ import Internship from './Components/Internship'
 import Project from './Components/Project'
 import Navbar from './Components/Navbar'
 import {AiFillLinkedin, AiFillGithub} from "react-icons/ai" 
+import {Button} from '@material-ui/core'; //importing material ui component
 
 function App() {
   return (
