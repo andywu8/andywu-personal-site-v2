@@ -19,11 +19,11 @@ const useStyles = makeStyles({
 export default function Project(props) {
     const classes = useStyles();
     return (
-    <Card className={classes.root} variant="outlined">
+    <Card variant="outlined" className={classes.root} variant="outlined">
         <CardMedia
         sx={{ height: 140 }}
         image={props.image}
-      />
+        />
         <CardContent>
             <h1>{props.project_name}</h1>
             <p>About: {props.description}</p>

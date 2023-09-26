@@ -1,69 +1,34 @@
 import './App.css';
-import './image/grad_headshot.jpeg' 
 import { Switch, Route } from 'react-router-dom';
 import Internship from './Components/Internship'
 import Project from './Components/Project'
 import Navbar from './Components/Navbar'
-import {AiFillLinkedin, AiFillGithub} from "react-icons/ai" 
 import {Button} from '@material-ui/core'; 
-
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import { classes } from 'istanbul-lib-coverage';
 import { blue } from "@material-ui/core/colors";
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import { MuiThemeProvider, createTheme } from '@material-ui/core/styles';
 // const theme = unstable_createMuiStrictModeTheme();
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import About from './Components/About';
+import CssBaseline from '@mui/material/CssBaseline';
 
-const theme = createMuiTheme({
+const theme = createTheme({
   palette: {
-    primary: blue
-  }
+    mode: 'blue',
+  },
 });
 function App() {
   return (
     <MuiThemeProvider theme={theme}>
+
+      <CssBaseline enableColorScheme />
         <div className="App">
         <body className="App-body">
           <Navbar/>
           <section id="about-me">
           <h1>About Me</h1>
-            <h2>Hi I'm Andy Wu!</h2>
-            <img class="Headshot hvr-float" src={require('./image/grad_headshot.jpeg')} alt="Headshot"></img>
-            <p>I'm a new grad double majoring in CS & Econ and S&DS from Yale class of 2023 looking for new grad SWE roles. I have experience in data science, ML, and full stack.</p>
-            <ul>
-              <li>
-                <a href="https://cpsc.yale.edu/">
-                  B.S. in Computer Science & Economomics
-                </a>
-              </li>
-              <li>
-                <a href="https://statistics.yale.edu/">
-                  B.A. in Statistics & Data Science
-                </a>
-              </li>
-            </ul>
-            <p>
-              I love to read books, especially fantasy novels. Some of my favorite series are Harry Potter, Percy Jackson, and The Mistborn Series.
-              I love sports: F1, Basketball, and Esports. 
-              I love animals and am the proud owner of a bunny.
-              I'm currently based in San Francisco, but am open to relocation.
-
-              
-            </p>
-            <h5>Socials</h5>
-            <ul>
-              <li>
-                <a href="https://www.linkedin.com/in/andywu-yale/">
-                    <LinkedInIcon size={40}/>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/andywu8">
-                  <AiFillGithub size={40}/>
-                </a>
-              </li>
-            </ul>
+          <About />
           </section>
           <section id="projects">
             <h1>Projects</h1>
@@ -93,16 +58,16 @@ function App() {
             <div className={classes.root}>
               <Grid container spacing = {3}>
                 <Grid item xs={3}>
-                  <Internship class="hvr-float" title="Software Engineer Intern" company="Meta" duration="May 2022 - Aug 2022" img_src="/meta_logo.jpeg"/>
+                  <Internship class="hvr-float" title="Software Engineer Intern" company="Meta" duration="May 2022 - Aug 2022" img_src="/images/meta_logo.jpeg"/>
                 </Grid>
                 <Grid item xs={3}>
-                  <Internship class="hvr-float" title="Venture Associate" company="Tsai CITY" duration="September 2022 - May 2023" img_src=""/>
+                  <Internship class="hvr-float" title="Venture Associate" company="Tsai CITY" duration="September 2022 - May 2023" img_src="/images/tsai_city.png"/>
                 </Grid>
                 <Grid item xs={3}>
-                  <Internship class="hvr-float" title="Software Engineer Intern" company="State Farm" duration="May 2021 - Aug 2021" img_src=""/>
+                  <Internship class="hvr-float" title="Software Engineer Intern" company="State Farm" duration="May 2021 - Aug 2021" img_src="/images/statefarm.png"/>
                 </Grid>
                 <Grid item xs={3}>
-                  <Internship class="hvr-float" title="Machine Learning Research Intern" company="Yale Intelligent Computing Lab" duration="May 2020 - Aug 2020" img_src=""/>
+                  <Internship class="hvr-float" title="Machine Learning Research Intern" company="Yale Intelligent Computing Lab" duration="May 2020 - Aug 2020" img_src="/images/intelligent_lab.png"/>
                 </Grid>
               </Grid>
             </div>
