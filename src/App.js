@@ -5,40 +5,38 @@ import Projects from './Components/Projects'
 import Navbar from './Components/Navbar' 
 import About from './Components/About';
 import CssBaseline from '@mui/material/CssBaseline';
-import { ThemeProvider, createTheme } from '@material-ui/core/styles'
-import { Typography } from '@mui/material';
+// import { ThemeProvider, createTheme } from '@material-ui/core/styles'
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { Button } from '@mui/material';
+
 
 const themeLight = createTheme({
   palette: {
-    background: {
-      default: "#e4f0e2"
-    }
-  }
+    mode: 'light',
+  },
 });
 
 const themeDark = createTheme({
   palette: {
-    text: {
-      primary: "#ffffff"
-    },
-    background: {
-      paper: '#f9f9f9',
-    },
-  }
+    mode: 'dark',
+  },
 });
 function App() {
   const [light, setLight] = React.useState(true);
   return (
-
-    // <ThemeProvider theme={light ? themeLight : themeDark}>
-    <ThemeProvider theme={themeLight}>
+    <ThemeProvider theme={light ? themeLight : themeDark}>
+    {/* <ThemeProvider theme={themeLight}> */}
       <CssBaseline />
-      {/* <Button onClick={() => setLight(prev => !prev)}>Toggle Theme</Button> */}
       <CssBaseline enableColorScheme />
         <body className="App-body">
+
           <Navbar/>
+          
           <section id="about-me">
             <About />
+            <br></br>
+            <Button variant="contained" onClick={() => setLight(prev => !prev)}>Toggle Theme</Button>
+
           </section>
           <section id="projects">
             <Projects />

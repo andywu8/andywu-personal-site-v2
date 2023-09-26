@@ -31,14 +31,15 @@ export default class Nav extends React.Component {
                   m={2}
                   style={{backgroundColor: "#1976d1"}}
                   sx={{
+                    ml:3,
                     ':hover': {
                       boxShadow: 20, // theme.shadows[20]
-                    },
+                    }
                   }}
                 >
                     <li>
                       <Link class={navbar_css.active} smooth spy to={page.section_id}>
-                        <Typography gutterBottom variant="h5" color="white" sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}>
+                        <Typography gutterBottom variant="subtitle1" color="white" sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}>
                           {page.name}
                         </Typography>
                       </Link>

@@ -14,6 +14,13 @@
         "description":"Vote on your favorite characters as they fight fictional battles."
     },
     {
+        "name": "Polls",
+        "dates": "Sep 2023 - Present",
+        "github_link": "https://github.com/andywu8/andywu-personal-site-v2",
+        "key_tech": ["Django", "SQL", "HTML"],
+        "description":"Second personal site."
+    },
+    {
         "name": "Mutuals",
         "dates": "2022",
         "github_link": "https://github.com/andywu8/cs419-finalproject",
