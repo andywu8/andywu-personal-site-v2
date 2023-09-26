@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll'
 import navbar_css from './Navbar.module.css';
 import AppBar from '@mui/material/AppBar';
-import { Card, Typography } from '@mui/material';
+import { Card, Typography, Button } from '@mui/material';
 
 const pages = [
   {
@@ -20,7 +20,6 @@ const pages = [
 ]
 
 export default class Nav extends React.Component {
-
   render() {    
     return (
         <AppBar color='primary' alignItems='center'>

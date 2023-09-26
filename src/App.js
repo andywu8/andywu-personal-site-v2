@@ -24,6 +24,7 @@ const themeDark = createTheme({
 });
 function App() {
   const [light, setLight] = React.useState(true);
+  
   return (
     <ThemeProvider theme={light ? themeLight : themeDark}>
     {/* <ThemeProvider theme={themeLight}> */}
@@ -31,12 +32,13 @@ function App() {
       <CssBaseline enableColorScheme />
         <body className="App-body">
 
-          <Navbar/>
+          <Navbar />
           <section id="about-me">
             <About />
             <br></br>
-            <Button variant="contained" onClick={() => setLight(prev => !prev)}>Toggle Theme</Button>
           </section>
+          <Button variant="contained" onClick={() => setLight(prev => !prev)}>Toggle Theme</Button>
+
           <section id="projects">
             <Projects />
           </section>

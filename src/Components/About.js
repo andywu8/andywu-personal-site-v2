@@ -17,28 +17,28 @@ export default function About(props) {
             <Typography variant="h4" align="center" color="text.primary" paragraph>
                 Hi I'm Andy!
             </Typography>
+
             
             <Box
             display="flex"
             justifyContent="center"
             alignItems="center"
             >
-
+              <CardMedia
+                sx={{ height: 300, width: 300, boxShadow: 3,borderRadius: 2,}}
+                image='/images/grad_headshot.jpeg'
+              />
             </Box>
 
             <br></br>
-                <Box fullWidth variant='outlined' 
-                sx={{
-                    bgcolor: '#f9f9f9',
-                    boxShadow: 3,
-                    borderRadius: 2,
-                    p: 4,
-                    minWidth: 300,
-                }}>
-                        <CardMedia
-                sx={{ height: 300, width: 300, boxShadow: 3,borderRadius: 2,}}
-                image='/images/grad_headshot.jpeg'
-            />
+            <Box fullWidth variant='outlined' 
+            sx={{
+                bgcolor: '#f9f9f9',
+                boxShadow: 3,
+                borderRadius: 2,
+                p: 4,
+                minWidth: 300,
+            }}>
             <Typography variant="h6" align="center" color="text.primary" paragraph>
                 I'm a new grad double majoring in CS & Econ and S&DS from Yale class of 2023 looking for new grad SWE roles. I have experience in data science, ML, and full stack.
             </Typography>
