@@ -10,7 +10,7 @@ export default function About(props) {
             {
               Projects_Data.map(project => {
                   return(
-                    <Grid item xs={12} md={4}>
+                    <Grid item xs={12} md={4} sx={{ display: 'flex', alignItems: 'center' }}>
                       <Project 
                         project_name={project.name} 
                         project_date={project.date} 

@@ -1,12 +1,7 @@
 import React, {useState} from 'react';
 import './Components.css'
-import Card from '@material-ui/core/Card';
 import { makeStyles } from '@material-ui/core/styles';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography'
-import Box from '@mui/material/Box';
-
+import { CardContent, CardMedia, Box, Typography } from '@mui/material';
 
 const useStyles = makeStyles({
     root: {

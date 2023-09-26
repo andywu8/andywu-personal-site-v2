@@ -2,12 +2,11 @@ import './App.css';
 import React from "react";
 import Internships from './Components/Internships'
 import Projects from './Components/Projects'
-import Navbar from './Components/Navbar'
-import {Button} from '@material-ui/core'; 
+import Navbar from './Components/Navbar' 
 import About from './Components/About';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider, createTheme } from '@material-ui/core/styles'
-import Typography from '@mui/material/Typography'
+import { Typography } from '@mui/material';
 
 const themeLight = createTheme({
   palette: {
@@ -34,13 +33,12 @@ function App() {
     // <ThemeProvider theme={light ? themeLight : themeDark}>
     <ThemeProvider theme={themeLight}>
       <CssBaseline />
-      <Button onClick={() => setLight(prev => !prev)}>Toggle Theme</Button>
+      {/* <Button onClick={() => setLight(prev => !prev)}>Toggle Theme</Button> */}
       <CssBaseline enableColorScheme />
-        <div className="App">
         <body className="App-body">
           <Navbar/>
           <section id="about-me">
-          <About />
+            <About />
           </section>
           <section id="projects">
             <Typography variant='h3'>
@@ -55,7 +53,6 @@ function App() {
             <Internships />
           </section>
         </body>
-      </div>
     </ThemeProvider>
   );
 }

@@ -1,17 +1,14 @@
 import React from 'react';
 import './Components.css';
 import Collapse from '@mui/material/Collapse'
-import {Button} from '@material-ui/core'; 
 import { makeStyles } from '@material-ui/core/styles';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Divider from '@mui/material/Divider'
-import Typography from '@mui/material/Typography'
 import { useState } from 'react'
 import IconButton from '@mui/material/IconButton'
 import ChevronUp from 'mdi-material-ui/ChevronUp'
 import ChevronDown from 'mdi-material-ui/ChevronDown'
-import Box from '@mui/material/Box';
+import { CardContent, CardMedia, Box, Typography, Button } from '@mui/material';
+
 
 const useStyles = makeStyles({
   root: {

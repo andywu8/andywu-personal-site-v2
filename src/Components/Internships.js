@@ -10,7 +10,8 @@ export default function About(props) {
             {
               Internships_Data.map(internship => {
                   return(
-                    <Grid item xs={12} md={4}>
+                    
+                    <Grid item xs={12} md={4} sx={{ display: 'flex', alignItems: 'center' }}>
                       <Internship 
                         title={internship.title} 
                         company={internship.company}
