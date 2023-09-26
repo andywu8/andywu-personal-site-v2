@@ -3,12 +3,13 @@ import {AiFillLinkedin, AiFillGithub} from "react-icons/ai"
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
-// or
+import CardMedia from '@mui/material/CardMedia';
+
 
 export default function About(props) {
     return (
         <Box
-        display="column"
+        direction="flex"
         justifyContent="center"
         alignItems="center"
         minHeight="100vh"
@@ -16,7 +17,17 @@ export default function About(props) {
             <Typography variant="h2" align="center" color="text.primary" paragraph>
                 Hi I'm Andy Wu!
             </Typography>
-            <img class="Headshot hvr-float" src='/images/grad_headshot.jpeg' alt="Headshot"></img>
+            
+            <Box
+            display="flex"
+            justifyContent="center"
+            alignItems="center"
+            >
+            <CardMedia
+                sx={{ height: 300, width: 300, boxShadow: 3,borderRadius: 2,}}
+                image='/images/grad_headshot.jpeg'
+            />
+            </Box>
             <Typography variant="h6" align="center" color="text.primary" paragraph>
                 I'm a new grad double majoring in CS & Econ and S&DS from Yale class of 2023 looking for new grad SWE roles. I have experience in data science, ML, and full stack.
             </Typography>
