@@ -45,9 +45,14 @@ export default function Project(props) {
         image={props.image}
         />
         <CardContent>
-            <h1>{props.project_name}</h1>
-            <p> {props.description}</p>
-            <p>Built Using: {props.key_tech}</p>
+            <Typography variant='h4'>
+                {props.project_name}
+            </Typography>
+            
+            <Typography variant='subtitle2'>
+                <p>{props.description}</p>
+                <p>{props.key_tech}</p>
+            </Typography>
             <Button href={props.github_link} color="primary" variant="contained">View Github Repo</Button>
             <Button onClick={handleClick}></Button>
             <IconButton size='small' onClick={handleClick}>

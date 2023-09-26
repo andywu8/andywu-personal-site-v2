@@ -3,6 +3,7 @@ import React from "react";
 import { Switch, Route } from 'react-router-dom';
 import Internship from './Components/Internship'
 import Project from './Components/Project'
+import Projects from './Components/Projects'
 import Navbar from './Components/Navbar'
 import {Button} from '@material-ui/core'; 
 import Paper from '@material-ui/core/Paper';
@@ -45,27 +46,12 @@ function App() {
         <body className="App-body">
           <Navbar/>
           <section id="about-me">
-          <h1>About Me</h1>
           <About />
           </section>
           <section id="projects">
             <h1>Projects</h1>
-            <div className={classes.root}>
-              <Grid container spacing={3}>
-                <Grid item xs={12} md={4}>
-                  <Project class="hvr-float" dates="2022" project_name="Mutuals" github_link="https://github.com/andywu8/cs419-finalproject" key_tech="Flask, SQL, Python, (HTML, CSS, JS)" description="Match Making App that allows you to match friends of friends"/>
-                </Grid>
-                <Grid item xs={12} md={4}>
-                  <Project class="hvr-float" dates="2022" project_name="Curbside" github_link="https://github.com/BenTheNetizen/DiStasio-Project" key_tech="ReactJS, SQL" description="Google Docs for Doctors"/>
-                </Grid>
-                <Grid item xs={12} md={4}>
-                  <Project class="hvr-float" dates="2021" project_name="Predict.ai" github_link="https://github.com/andywu8/hackday-predict.ai" key_tech="Django, Python" description="Full stack + ML app to predict car insurance by states"/>
-                </Grid>
-                <Grid item xs={12} md={4}>
-                  <Project class="hvr-float" dates="2021" project_name="Simmer" github_link="https://github.com/andywu8/simmer" key_tech="ReactJS, Firebase" description="View Cooking Recipes"/>
-                </Grid>
-              </Grid>
-            </div>
+            <Projects />
+
           </section>
 
 

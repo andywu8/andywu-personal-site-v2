@@ -1,5 +1,5 @@
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import {AiFillLinkedin, AiFillGithub} from "react-icons/ai" 
+import GitHubIcon from '@mui/icons-material/GitHub';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
@@ -14,7 +14,7 @@ export default function About(props) {
         alignItems="center"
         minHeight="100vh"
         >
-            <Typography variant="h2" align="center" color="text.primary" paragraph>
+            <Typography variant="h4" align="center" color="text.primary" paragraph>
                 Hi I'm Andy Wu!
             </Typography>
             
@@ -28,9 +28,15 @@ export default function About(props) {
                 image='/images/grad_headshot.jpeg'
             />
             </Box>
+            <br></br>
             <Typography variant="h6" align="center" color="text.primary" paragraph>
                 I'm a new grad double majoring in CS & Econ and S&DS from Yale class of 2023 looking for new grad SWE roles. I have experience in data science, ML, and full stack.
             </Typography>
+            <Box
+            display="flex"
+            justifyContent="center"
+            alignItems="center"
+            >
             <ul>
               <li>
                 <Link href="https://cpsc.yale.edu/" underline="hover">
@@ -43,27 +49,34 @@ export default function About(props) {
                 </Link>
               </li>
             </ul>
+            </Box>
             <Typography variant="h6" align="center" color="text.primary" paragraph>
                 I love to read books, especially fantasy novels. Some of my favorite series are Harry Potter, Percy Jackson, and The Mistborn Series.
-              I love sports: F1, Basketball, and Esports. 
-              I love animals and am the proud owner of a bunny.
-              I'm currently based in San Francisco, but am open to relocation.
+                I love sports: F1, Basketball, and Esports. 
+                I love animals and am the proud owner of a bunny.
+                I'm currently based in San Francisco, but am open to relocation.
             </Typography>
-            <p>
-            </p>
-            <h5>Socials</h5>
+            <Typography variant="h5" align="center" color="text.secondary" paragraph>
+                Socials
+            </Typography>
+            <Box
+            display="flex"
+            justifyContent="center"
+            alignItems="center"
+            >
             <ul>
               <li>
                 <a href="https://www.linkedin.com/in/andywu-yale/">
-                    <LinkedInIcon size={40}/>
+                    <LinkedInIcon style={{ color: "#0A66C2", fontSize: '50px'}}/>
                 </a>
               </li>
               <li>
-                <a href="https://github.com/andywu8">
-                  <AiFillGithub size={40}/>
+                <a href="https://www.linkedin.com/in/andywu-yale/">
+                    <GitHubIcon style={{ color: "black",  fontSize: '50px'}}/>
                 </a>
               </li>
             </ul>
+            </Box>
         </Box>
     )
 }
