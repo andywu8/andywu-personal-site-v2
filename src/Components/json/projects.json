@@ -1,12 +1,5 @@
 [
     {
-        "name":"Character Clash",
-        "dates":"2022",
-        "github_link":"https://github.com/andywu8/fictional-character-battles",
-        "key_tech":"Flask, SQL, Python, (HTML, CSS, JS)",
-        "description":"Login and create fictional character battles and vote for who you think will win."
-    },
-    {
         "name": "Mutuals",
         "dates": "2022",
         "github_link": "https://github.com/andywu8/cs419-finalproject",
