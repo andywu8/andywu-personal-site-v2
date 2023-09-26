@@ -7,6 +7,8 @@ import {Button} from '@material-ui/core';
 import About from './Components/About';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider, createTheme } from '@material-ui/core/styles'
+import Typography from '@mui/material/Typography'
+
 const themeLight = createTheme({
   palette: {
     background: {
@@ -29,7 +31,8 @@ function App() {
   const [light, setLight] = React.useState(true);
   return (
 
-    <ThemeProvider theme={light ? themeLight : themeDark}>
+    // <ThemeProvider theme={light ? themeLight : themeDark}>
+    <ThemeProvider theme={themeLight}>
       <CssBaseline />
       <Button onClick={() => setLight(prev => !prev)}>Toggle Theme</Button>
       <CssBaseline enableColorScheme />
@@ -40,11 +43,15 @@ function App() {
           <About />
           </section>
           <section id="projects">
-            <h1>Projects</h1>
+            <Typography variant='h3'>
+                Projects
+            </Typography>
             <Projects />
           </section>
           <section id="experience">
-            <h1>Experience</h1>
+            <Typography variant='h3'>
+                Experience
+            </Typography>
             <Internships />
           </section>
         </body>

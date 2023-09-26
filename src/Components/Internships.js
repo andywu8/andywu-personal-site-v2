@@ -25,11 +25,3 @@ export default function About(props) {
         </div>
     )
 }
-
-
-
-//   <Grid item xs={12} md={4}>
-//     <Internship class="hvr-float" title="Machine Learning Research Intern" company="Yale Intelligent Computing Lab" duration="May 2020 - Aug 2020" img_src="/images/intelligent_lab.png"/>
-//   </Grid>
-// </Grid>
-// </div>
