@@ -1,5 +1,12 @@
 [
     {
+        "name": "Personal Site",
+        "dates": "Sep 2023 - Present",
+        "github_link": "https://github.com/andywu8/andywu-personal-site-v2",
+        "key_tech": ["ReactJS", "MaterialUI"],
+        "description":"Second personal site."
+    },
+    {
         "name": "Character Clash",
         "dates": "Sep 2023 - Present",
         "github_link": "https://github.com/andywu8/fictional-character-battles",
