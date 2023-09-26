@@ -44,10 +44,10 @@ export default function Project(props) {
       }}
       padding={2}
     >
-        <CardMedia
+        {/* <CardMedia
         sx={{ height: 140 }}
         image={props.image}
-        />
+        /> */}
         <CardContent>
             <Typography variant='h4'>
                 {props.project_name}

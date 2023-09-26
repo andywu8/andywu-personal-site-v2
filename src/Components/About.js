@@ -37,18 +37,18 @@ export default function About(props) {
             justifyContent="center"
             alignItems="center"
             >
-            <ul>
-              <li>
-                <Link href="https://cpsc.yale.edu/" underline="hover">
-                    B.S. in Computer Science & Economomics
-                </Link>
-              </li>
-              <li>
-                <Link href="https://statistics.yale.edu/" underline="hover">
-                    B.A. in Statistics & Data Science
-                </Link>
-              </li>
-            </ul>
+              <ul>
+                <li>
+                  <Link href="https://cpsc.yale.edu/" underline="hover">
+                      B.S. in Computer Science & Economomics
+                  </Link>
+                </li>
+                <li>
+                  <Link href="https://statistics.yale.edu/" underline="hover">
+                      B.A. in Statistics & Data Science
+                  </Link>
+                </li>
+              </ul>
             </Box>
             <Typography variant="h6" align="center" color="text.primary" paragraph>
                 I love to read books, especially fantasy novels. Some of my favorite series are Harry Potter, Percy Jackson, and The Mistborn Series.
