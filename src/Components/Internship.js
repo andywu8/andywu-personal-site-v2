@@ -13,6 +13,13 @@ const useStyles = makeStyles({
   });
 export default function Internship(props) {
     const classes = useStyles();
+    const boxSX = {
+      "&:hover": {
+        border: "1px solid #00FF00",
+        color: 'gray',
+        backgroundColor: 'lightblue'
+      },
+    };
     return (
       <Box fullWidth variant='outlined' className={classes.root}
       sx={{

@@ -22,7 +22,6 @@ li {
 	display: inline-block;
 	align-items: center;
 	height: 20px;
-	/* color: green; will change color of text within the element */
 	cursor: pointer;
 }
 

@@ -3,9 +3,20 @@ import { classes } from 'istanbul-lib-coverage';
 import Grid from '@material-ui/core/Grid';
 import Project from './Project'
 import Projects_Data from './json/projects.json'
+import { Box, Typography } from '@mui/material';
+
 export default function About(props) {
     return(
-        <div className={classes.root}>
+      <Box
+      direction="flex"
+      justifyContent="center"
+      alignItems="center"
+      minHeight="100vh"
+      >
+          <Typography variant='h3' align="center">
+              Projects
+          </Typography>
+          <br></br>
           <Grid container spacing={3}>
             {
               Projects_Data.map(project => {
@@ -23,6 +34,6 @@ export default function About(props) {
               })
             }
           </Grid>
-        </div>
+        </Box>
     )
 }

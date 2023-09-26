@@ -3,35 +3,35 @@
         "name": "Character Clash",
         "dates": "Sep 2023 - Present",
         "github_link": "https://github.com/andywu8/fictional-character-battles",
-        "key_tech":"Flask, SQL, Python, (HTML, CSS, JS)",
+        "key_tech": ["Flask", "SQL", "Python", "HTML", "CSS", "JS"],
         "description":"Vote on your favorite characters as they fight fictional battles."
     },
     {
         "name": "Mutuals",
         "dates": "2022",
         "github_link": "https://github.com/andywu8/cs419-finalproject",
-        "key_tech":"Flask, SQL, Python, (HTML, CSS, JS)",
+        "key_tech": ["Flask", "SQL", "Python", "HTML", "CSS", "JS"],
         "description":"Match Making App that allows you to match friends of friends"
     },
     {
         "name": "Curbside",
         "dates": "2022",
         "github_link": "https://github.com/BenTheNetizen/DiStasio-Project",
-        "key_tech":"ReactJS, SQL",
+        "key_tech":["ReactJS", "SQL"],
         "description":"Google Docs for Doctors"
     },
     {
         "name": "Predict.ai",
         "dates": "2021",
         "github_link": "https://github.com/andywu8/hackday-predict.ai",
-        "key_tech":"Django, Python",
+        "key_tech": ["Django, NumpPy"],
         "description":"Full stack + ML app to predict car insurance by states"
     },
     {
         "name": "Simmer",
         "dates": "2021",
         "github_link": "https://github.com/andywu8/simmer",
-        "key_tech":"ReactJS, Firebase",
+        "key_tech":["Django", "NumPy"],
         "description":"View Cooking Recipes"
     }
 

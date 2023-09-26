@@ -41,15 +41,9 @@ function App() {
             <About />
           </section>
           <section id="projects">
-            <Typography variant='h3'>
-                Projects
-            </Typography>
             <Projects />
           </section>
           <section id="experience">
-            <Typography variant='h3'>
-                Experience
-            </Typography>
             <Internships />
           </section>
         </body>

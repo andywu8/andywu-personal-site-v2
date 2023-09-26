@@ -7,7 +7,8 @@ import { useState } from 'react'
 import IconButton from '@mui/material/IconButton'
 import ChevronUp from 'mdi-material-ui/ChevronUp'
 import ChevronDown from 'mdi-material-ui/ChevronDown'
-import { CardContent, CardMedia, Box, Typography, Button } from '@mui/material';
+import { CardContent, CardMedia, Box, Typography, Button, Chip } from '@mui/material';
+
 
 
 const useStyles = makeStyles({
@@ -26,7 +27,6 @@ export default function Project(props) {
     const handleClick = () => {
       setCollapse(!collapse)
     }
-
     return (
     <Box fullWidth variant='outlined' className={classes.root}
     sx={{
@@ -35,7 +35,14 @@ export default function Project(props) {
         borderRadius: 2,
         p: 2,
         minWidth: 300,
+
+
+        '&hover': {
+          boxShadow: 20, // theme.shadows[20]
+        }
+
       }}
+      padding={2}
     >
         <CardMedia
         sx={{ height: 140 }}
@@ -48,7 +55,9 @@ export default function Project(props) {
             
             <Typography variant='subtitle2'>
                 <p>{props.description}</p>
-                <p>{props.key_tech}</p>
+                {props.key_tech.map((tech) =>
+                  <Chip label={tech} variant="outlined" />
+                )}
             </Typography>
             <Button href={props.github_link} color="primary" variant="contained">View Github Repo</Button>
             <Button onClick={handleClick}></Button>
