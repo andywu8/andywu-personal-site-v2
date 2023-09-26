@@ -10,6 +10,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { Button } from '@mui/material';
 
 
+
 const themeLight = createTheme({
   palette: {
     mode: 'light',
@@ -31,12 +32,10 @@ function App() {
         <body className="App-body">
 
           <Navbar/>
-          
           <section id="about-me">
             <About />
             <br></br>
             <Button variant="contained" onClick={() => setLight(prev => !prev)}>Toggle Theme</Button>
-
           </section>
           <section id="projects">
             <Projects />
