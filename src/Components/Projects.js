@@ -28,6 +28,7 @@ export default function About(props) {
                         github_link={project.github_link} 
                         key_tech={project.key_tech} 
                         description={project.description}
+                        date = {project.dates}
                       />
                     </Grid>
                   )
