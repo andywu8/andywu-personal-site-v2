@@ -38,7 +38,7 @@
         "name": "Predict.ai",
         "dates": "2021",
         "github_link": "https://github.com/andywu8/hackday-predict.ai",
-        "key_tech": ["Django, NumpPy"],
+        "key_tech": ["Django",  "NumpPy"],
         "description":"Full stack + ML app to predict car insurance by states"
     },
     {
