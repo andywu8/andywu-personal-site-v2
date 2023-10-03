@@ -18,7 +18,7 @@
         "dates": "Sep 2023 - Present",
         "github_link": "https://github.com/andywu8/andywu-personal-site-v2",
         "key_tech": ["Django", "SQL", "HTML"],
-        "description":"Second personal site."
+        "description":"Create polls and allow others to vote."
     },
     {
         "name": "Mutuals",
