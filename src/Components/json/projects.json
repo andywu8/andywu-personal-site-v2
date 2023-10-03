@@ -21,6 +21,13 @@
         "description":"Create polls and allow others to vote."
     },
     {
+        "name": "Loyalist API",
+        "dates": "April 2023",
+        "github_link": "https://github.com/andywu8/loyalist_api",
+        "key_tech": ["Python", "ChatGPT"],
+        "description":"Chat GPT Powered API to parse over Menu Data and return Answers to Questions"
+    },
+    {
         "name": "Mutuals",
         "dates": "2022",
         "github_link": "https://github.com/andywu8/cs419-finalproject",
