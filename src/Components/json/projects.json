@@ -10,7 +10,7 @@
         "name": "Character Clash",
         "dates": "Sep 2023 - Present",
         "github_link": "https://github.com/andywu8/fictional-character-battles",
-        "key_tech": ["Flask", "SQL", "Python", "HTML", "CSS", "JS"],
+        "key_tech": ["Flask", "PostgreSQL", "Python", "HTML", "CSS", "JS"],
         "description":"Vote on your favorite characters as they fight fictional battles."
     },
     {
