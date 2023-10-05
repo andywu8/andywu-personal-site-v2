@@ -28,6 +28,13 @@
         "description":"Chat GPT Powered API to parse over Menu Data and return Answers to Questions"
     },
     {
+        "name": "Notes App",
+        "dates": "Oct 2023",
+        "github_link": "https://github.com/andywu8/django-note-app",
+        "key_tech": ["Django", "SQL"],
+        "description":"Note Taking App built in Django."
+    },
+    {
         "name": "Mutuals",
         "dates": "2022",
         "github_link": "https://github.com/andywu8/cs419-finalproject",
