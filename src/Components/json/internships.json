@@ -3,25 +3,31 @@
         "title":"Software Engineer Intern",
         "company": "Meta",
         "duration": "May 2022 - August 2022",
-        "img_src": "/images/meta_logo.jpeg"
+        "img_src": "/images/meta_logo.jpeg",
+        "skills": ["Dataswarm", "Dper3", "Python", "Pytorch", " Presto", "SQL"]
     },
     {
         "title":"Venture Associate",
         "company": "Tsai CITY",
         "duration": "September 2022 - May 2023",
-        "img_src": "/images/tsai_city.png"
+        "img_src": "/images/tsai_city.png",
+        "skills": ["Bubble", "Powerpoint"]
+
     },
     {
         "title":"Software Engineer Intern",
         "company": "State Farm",
         "duration": "May 2021 - Aug 2021",
-        "img_src": "/images/statefarm.png"
+        "img_src": "/images/statefarm.png",
+        "skills": ["Python", "ReactJS", "AWS", "Lambda", "API Gateway", "Cloudwatch", "S3", "Docker", "SQL"]
+
     },
     {
         "title":"Machine Learning Research Intern",
         "company": "Yale Intelligent Computing Lab",
         "duration": "May 2020 - Aug 2020",
-        "img_src": "/images/intelligent_lab.png"
+        "img_src": "/images/intelligent_lab.png",
+        "skills": ["Python", "Pytorch", "Matplotlib"]
     }
 ]
 

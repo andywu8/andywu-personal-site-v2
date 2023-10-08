@@ -5,6 +5,9 @@ import Internship from './Internship'
 import Internships_Data from './json/internships.json'
 import { Box, Typography } from '@mui/material';
 
+
+
+
 export default function About(props) {
     return(
       <Box
@@ -28,6 +31,7 @@ export default function About(props) {
                         company={internship.company}
                         duration={internship.duration}
                         img_src={internship.img_src}
+                        skills={internship.skills}
                       />
                     </Grid>
                   )

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './Components.css'
 import { makeStyles } from '@material-ui/core/styles';
-import { CardContent, CardMedia, Box, Typography } from '@mui/material';
+import { CardContent, CardMedia, Box, Typography, Chip } from '@mui/material';
 
 const useStyles = makeStyles({
     root: {
@@ -13,13 +13,6 @@ const useStyles = makeStyles({
   });
 export default function Internship(props) {
     const classes = useStyles();
-    const boxSX = {
-      "&:hover": {
-        border: "1px solid #00FF00",
-        color: 'gray',
-        backgroundColor: 'lightblue'
-      },
-    };
     return (
       <Box fullWidth variant='outlined' className={classes.root}
       sx={{
@@ -43,7 +36,10 @@ export default function Internship(props) {
                 </Typography>
                 <Typography variant='subtitle2'>
                   <p>Duration: {props.duration}</p>
-                  <p>Key Skills: {props.key_skills}</p>
+                  <p>{props.description}</p>
+                  {props.skills.map((skill) =>
+                    <Chip label={skill} variant="outlined" />
+                  )}
                 </Typography>
             </CardContent>
         </Box>
