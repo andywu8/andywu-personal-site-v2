@@ -14,12 +14,20 @@
         "description":"Vote on your favorite characters as they fight fictional battles."
     },
     {
+        "name": "Youtube Video Generator - Langchain ",
+        "dates": "Oct 2023",
+        "github_link": "https://github.com/andywu8/Langchain-ChatGPT-App",
+        "key_tech": ["Python", "Langchain", "ChatGPT", "Streamlit"],
+        "description":"Streamlit for the frontend with Langchain backend using sequential chain to generate Youtube video title and script."
+    },
+    {
         "name": "Polls",
         "dates": "Sep 2023 - Present",
         "github_link": "https://github.com/andywu8/andywu-personal-site-v2",
         "key_tech": ["Django", "SQL", "HTML"],
         "description":"Create polls and allow others to vote."
     },
+    
     {
         "name": "Loyalist API",
         "dates": "April 2023",

@@ -10,10 +10,9 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { Button } from '@mui/material';
 
 
-
 const themeLight = createTheme({
   palette: {
-    mode: 'light',
+    mode: 'light'
   },
 });
 
