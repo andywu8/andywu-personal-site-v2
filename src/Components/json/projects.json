@@ -14,7 +14,7 @@
         "description":"Vote on your favorite characters as they fight fictional battles."
     },
     {
-        "name": "Youtube Video Generator - Langchain ",
+        "name": "Youtube Video Generator ",
         "dates": "Oct 2023",
         "github_link": "https://github.com/andywu8/Langchain-ChatGPT-App",
         "key_tech": ["Python", "Langchain", "ChatGPT", "Streamlit"],
