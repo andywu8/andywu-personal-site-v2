@@ -14,6 +14,13 @@
         "description":"Vote on your favorite characters as they fight fictional battles."
     },
     {
+        "name": "Noteshare",
+        "dates": "Oct 2023 - Present",
+        "github_link": "https://github.com/andywu8/django-note-app",
+        "key_tech": ["Django", "SQL", "HTML", "Bootstrap"],
+        "description":"Note taking app built in Django that allows you to edit, delete, and share notes with friends."
+    },
+    {
         "name": "Youtube Video Generator ",
         "dates": "Oct 2023",
         "github_link": "https://github.com/andywu8/Langchain-ChatGPT-App",
@@ -34,13 +41,6 @@
         "github_link": "https://github.com/andywu8/loyalist_api",
         "key_tech": ["Python", "ChatGPT"],
         "description":"Chat GPT Powered API to parse over Menu Data and return Answers to Questions"
-    },
-    {
-        "name": "Notes App",
-        "dates": "Oct 2023",
-        "github_link": "https://github.com/andywu8/django-note-app",
-        "key_tech": ["Django", "SQL"],
-        "description":"Note Taking App built in Django."
     },
     {
         "name": "Mutuals",
