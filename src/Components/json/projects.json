@@ -21,10 +21,17 @@
         "description":"Note taking app built in Django that allows you to edit, delete, and share notes with friends."
     },
     {
+        "name": "Typescript App",
+        "dates": "Oct 2023 - Present",
+        "github_link": "https://github.com/andywu8/typescript-starter-app",
+        "key_tech": ["Typescript"],
+        "description":"Getting started with Typescript"
+    },
+    {
         "name": "Youtube Video Generator ",
         "dates": "Oct 2023",
         "github_link": "https://github.com/andywu8/Langchain-ChatGPT-App",
-        "key_tech": ["Python", "Langchain", "ChatGPT", "Streamlit"],
+        "key_tech": ["Python", "Langchain", "OpenAI API", "Streamlit"],
         "description":"Streamlit for the frontend with Langchain backend using sequential chain to generate Youtube video title and script."
     },
     {
