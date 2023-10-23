@@ -20,16 +20,7 @@ export default function About(props) {
           <Typography variant="h4" align="center" color="text.primary" paragraph>
             Hi I'm Andy!
           </Typography>
-
-          </Box>
-          
-
-          <Box
-          display="flex"
-          justifyContent="center"
-          alignItems="center"
-          >
-            <CardMedia
+          <CardMedia
               sx={{ height: 300, width: 300, boxShadow: 3,borderRadius: 2,}}
               image='/images/grad_headshot.jpeg'
             />
