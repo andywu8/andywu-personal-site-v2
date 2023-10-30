@@ -21,11 +21,11 @@
         "description":"Note taking app built in Django that allows you to edit, delete, and share notes with friends."
     },
     {
-        "name": "Typescript App",
+        "name": "Hacker News",
         "dates": "Oct 2023 - Present",
-        "github_link": "https://github.com/andywu8/typescript-starter-app",
-        "key_tech": ["Typescript"],
-        "description":"Getting started with Typescript"
+        "github_link": "https://github.com/andywu8/hackernews-ts-graphql",
+        "key_tech": ["Typescript", "GraphQL", "Prisma", "Apollo Server"],
+        "description":"Hacker News clone built in Typescript, GraphQL, and Prisma."
     },
     {
         "name": "Youtube Video Generator ",
