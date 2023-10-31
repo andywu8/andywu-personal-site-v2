@@ -4,42 +4,48 @@
         "dates": "Sep 2023 - Present",
         "github_link": "https://github.com/andywu8/andywu-personal-site-v2",
         "key_tech": ["ReactJS", "MaterialUI"],
-        "description":"Second personal site."
+        "description":"Second personal site.",
+        "img_src": "/images/personal_site_screenshot.png"
     },
     {
         "name": "Character Clash",
         "dates": "Sep 2023 - Present",
         "github_link": "https://github.com/andywu8/fictional-character-battles",
         "key_tech": ["Flask", "PostgreSQL", "Python", "HTML", "CSS", "JS"],
-        "description":"Vote on your favorite characters as they fight fictional battles."
+        "description":"Vote on your favorite characters as they fight fictional battles.",
+        "img_src": ""
     },
     {
         "name": "Noteshare",
         "dates": "Oct 2023 - Present",
         "github_link": "https://github.com/andywu8/django-note-app",
         "key_tech": ["Django", "SQL", "HTML", "Bootstrap"],
-        "description":"Note taking app built in Django that allows you to edit, delete, and share notes with friends."
+        "description":"Note taking app built in Django that allows you to edit, delete, and share notes with friends.",
+        "img_src": ""
     },
     {
         "name": "Hacker News",
         "dates": "Oct 2023 - Present",
         "github_link": "https://github.com/andywu8/hackernews-ts-graphql",
         "key_tech": ["Typescript", "GraphQL", "Prisma", "Apollo Server"],
-        "description":"Hacker News clone built in Typescript, GraphQL, and Prisma."
+        "description":"Hacker News clone built in Typescript, GraphQL, and Prisma.",
+        "img_src": ""
     },
     {
         "name": "Youtube Video Generator ",
         "dates": "Oct 2023",
         "github_link": "https://github.com/andywu8/Langchain-ChatGPT-App",
         "key_tech": ["Python", "Langchain", "OpenAI API", "Streamlit"],
-        "description":"Streamlit for the frontend with Langchain backend using sequential chain to generate Youtube video title and script."
+        "description":"Streamlit for the frontend with Langchain backend using sequential chain to generate Youtube video title and script.",
+        "img_src": ""
     },
     {
         "name": "Polls",
         "dates": "Sep 2023 - Present",
         "github_link": "https://github.com/andywu8/andywu-personal-site-v2",
         "key_tech": ["Django", "SQL", "HTML"],
-        "description":"Create polls and allow others to vote."
+        "description":"Create polls and allow others to vote.",
+        "img_src": ""
     },
     
     {
@@ -47,35 +53,42 @@
         "dates": "April 2023",
         "github_link": "https://github.com/andywu8/loyalist_api",
         "key_tech": ["Python", "ChatGPT"],
-        "description":"Chat GPT Powered API to parse over Menu Data and return Answers to Questions"
+        "description":"Chat GPT Powered API to parse over Menu Data and return Answers to Questions",
+        "img_src": ""
     },
     {
         "name": "Mutuals",
         "dates": "2022",
         "github_link": "https://github.com/andywu8/cs419-finalproject",
         "key_tech": ["Flask", "SQL", "Python", "HTML", "CSS", "JS"],
-        "description":"Match Making App that allows you to match friends of friends"
+        "description":"Match Making App that allows you to match friends of friends",
+        "img_src": ""
     },
     {
         "name": "Curbside",
         "dates": "2022",
         "github_link": "https://github.com/BenTheNetizen/DiStasio-Project",
         "key_tech":["ReactJS", "SQL"],
-        "description":"Google Docs for Doctors"
+        "description":"Google Docs for Doctors",
+        "img_src": ""
     },
     {
         "name": "Predict.ai",
         "dates": "2021",
         "github_link": "https://github.com/andywu8/hackday-predict.ai",
-        "key_tech": ["Flask",  "NumpPy", "Pandas", "Plotly"],
-        "description":"Full stack + ML app to predict car insurance by states"
+        "key_tech": ["Flask",  "NumPy", "Pandas", "Plotly"],
+        "description":"Full stack + ML app to predict car insurance by states",
+        "img_src": ""
+
     },
     {
         "name": "Simmer",
         "dates": "2021",
         "github_link": "https://github.com/andywu8/simmer",
-        "key_tech":["Django", "NumPy"],
-        "description":"View Cooking Recipes"
+        "key_tech":["ReactJS", "Firebase"],
+        "description":"View Cooking Recipes",
+        "img_src": ""
+
     }
 
 

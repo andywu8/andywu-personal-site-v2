@@ -1,5 +1,3 @@
-
-import { classes } from 'istanbul-lib-coverage';
 import Grid from '@material-ui/core/Grid';
 import Project from './Project'
 import Projects_Data from './json/projects.json'
@@ -23,6 +21,7 @@ export default function About(props) {
                   return(
                     <Grid item xs={12} md={3} sx={{ display: 'flex', alignItems: 'center' }}>
                       <Project 
+                        img_src={project.img_src}
                         project_name={project.name} 
                         project_date={project.date} 
                         github_link={project.github_link} 

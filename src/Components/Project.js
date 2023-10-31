@@ -30,11 +30,12 @@ export default function Project(props) {
     return (
     <Box fullWidth variant='outlined' className={classes.root}
     sx={{
-        border:4,
-        borderLeft:4,
-        borderRight:4,
-        borderColor:"coral",
+        // border:4,
+        // borderLeft:4,
+        // borderRight:4,
+        // borderColor:"coral",
         bgcolor: '#f9f9f9',
+        // bgcolor: '#dad5d5',
         boxShadow: 3,
         borderRadius: 2,
         p: 2,
@@ -47,6 +48,17 @@ export default function Project(props) {
       padding={2}
     >
         <CardContent>
+
+            {props.img_src !== "" ? (
+                <CardMedia
+                sx={{ height: 140 }}
+                image={props.img_src}
+                />
+            ): (
+              <div></div>
+            )}
+ 
+
             <Typography variant='h4'>
                 {props.project_name}
             </Typography>
