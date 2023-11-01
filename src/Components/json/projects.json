@@ -29,7 +29,7 @@
         "github_link": "https://github.com/andywu8/django-note-app",
         "key_tech": ["Django", "SQL", "HTML", "Bootstrap"],
         "description":"Note taking app built in Django that allows you to edit, delete, and share notes with friends.",
-        "img_src": ""
+        "img_src": "/images/noteshare.png"
     },
     {
         "name": "Hacker News",
@@ -37,7 +37,7 @@
         "github_link": "https://github.com/andywu8/hackernews-ts-graphql",
         "key_tech": ["Typescript", "GraphQL", "Prisma", "Apollo Server"],
         "description":"Hacker News clone built in Typescript, GraphQL, and Prisma.",
-        "img_src": ""
+        "img_src": "/images/hackernews.png"
     },
     {
         "name": "Youtube Video Generator ",
@@ -45,7 +45,7 @@
         "github_link": "https://github.com/andywu8/Langchain-ChatGPT-App",
         "key_tech": ["Python", "Langchain", "OpenAI API", "Streamlit"],
         "description":"Streamlit for the frontend with Langchain backend using sequential chain to generate Youtube video title and script.",
-        "img_src": ""
+        "img_src": "/images/youtube_langchain.png"
     },
     {
         "name": "Polls",
