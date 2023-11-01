@@ -50,12 +50,18 @@ export default function Project(props) {
         <CardContent>
 
             {props.img_src !== "" ? (
+              <>
                 <CardMedia
-                sx={{ height: 140 }}
+                sx={{ 
+                  height: 140,
+                  border: "1px solid #0096FF" 
+                }}
                 image={props.img_src}
                 />
+              </>
+
             ): (
-              <div></div>
+              <></>
             )}
  
 

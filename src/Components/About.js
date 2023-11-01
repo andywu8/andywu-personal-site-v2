@@ -21,7 +21,12 @@ export default function About(props) {
             Hi I'm Andy!
           </Typography>
           <CardMedia
-              sx={{ height: 300, width: 300, boxShadow: 3,borderRadius: 2,}}
+              sx={{ 
+                height: 300, 
+                width: 300, 
+                boxShadow: 3,
+                borderRadius: 2,
+              }}
               image='/images/grad_headshot.jpeg'
             />
           </Box>

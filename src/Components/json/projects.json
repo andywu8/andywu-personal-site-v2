@@ -20,7 +20,7 @@
         "dates": "Oct 2023 - Present",
         "github_link": "https://github.com/andywu8/hackernews-ts-graphql",
         "key_tech": ["Java", "Spring Boot", "ReactJS", "Axios", "Bootstrap"],
-        "description":"Course registration website that allows for CRUD operations. Java/Spring Boot backend with ReactJS frontend using Axios to retrieve data.",
+        "description":"Course registration website. Java/Spring Boot backend with ReactJS frontend using Axios.",
         "img_src": "/images/courses_springboot.png"
     },
     {
