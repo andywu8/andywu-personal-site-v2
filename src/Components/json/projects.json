@@ -16,8 +16,17 @@
         "img_src": ""
     },
     {
+        "name": "TutorialCreate",
+        "dates": "Oct 2023",
+        "github_link": "https://github.com/andywu8/TutorialCreate",
+        "key_tech": ["Typescript", "ReactJS", "Axios", "NodeJS"],
+        "description":"TutorialCreate is a website that allows you to create and share tutorials with others.",
+        "img_src": "/images/courses_springboot.png"
+    },
+    
+    {
         "name": "Course Registration",
-        "dates": "Oct 2023 - Present",
+        "dates": "Oct 2023 ",
         "github_link": "https://github.com/andywu8/hackernews-ts-graphql",
         "key_tech": ["Java", "Spring Boot", "ReactJS", "Axios", "Bootstrap"],
         "description":"Course registration website. Java/Spring Boot backend with ReactJS frontend using Axios.",
