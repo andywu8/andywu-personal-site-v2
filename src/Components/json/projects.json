@@ -19,7 +19,7 @@
         "name": "TutorialCreate",
         "dates": "Oct 2023",
         "github_link": "https://github.com/andywu8/TutorialCreate",
-        "key_tech": ["Typescript", "ReactJS", "Axios", "NodeJS"],
+        "key_tech": ["Typescript", "ReactJS", "Axios", "NodeJS", "Sequelize", "SQLite3"],
         "description":"TutorialCreate is a website that allows you to create and share tutorials with others.",
         "img_src": "/images/courses_springboot.png"
     },
