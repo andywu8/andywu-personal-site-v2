@@ -43,7 +43,7 @@ export default function About(props) {
                   minWidth: 300,
               }}>
               <Typography variant="h6" align="center" color="text.primary" paragraph>
-                  I'm a new grad double majoring in CS & Econ and S&DS from Yale class of 2023 looking for new grad SWE roles. I have experience in data science, ML, and full stack.
+                  Currently SWE @ Treet. Yale '23. Studied CS/Econ and S&DS. I have experience in data science, ML, and full stack.
               </Typography>
               <Box
               display="flex"
