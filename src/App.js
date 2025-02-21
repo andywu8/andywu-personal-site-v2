@@ -36,7 +36,8 @@ function App() {
             <About />
             <br></br>
           </section>
-          <Button variant="contained" onClick={() => setLight(prev => !prev)}>Toggle Theme</Button>
+          {/* TODO: Fix toggle theme button */}
+          {/* <Button variant="contained" onClick={() => setLight(prev => !prev)}>Toggle Theme</Button> */}
 
           <section id="projects">
             <Projects />
