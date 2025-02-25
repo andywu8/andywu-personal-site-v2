@@ -21,6 +21,7 @@
             "SpotifyAPI"
         ],
         "description": "Spotify AI that allows you to generate playlists based on your preferences",
+        "img_src": ""
     },
     {
         "name": "Character Clash",
