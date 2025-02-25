@@ -3,110 +3,179 @@
         "name": "Personal Site",
         "dates": "Sep 2023 - Present",
         "github_link": "https://github.com/andywu8/andywu-personal-site-v2",
-        "key_tech": ["ReactJS", "MaterialUI"],
-        "description":"Second personal site.",
+        "key_tech": [
+            "ReactJS",
+            "MaterialUI"
+        ],
+        "description": "Second personal site.",
         "img_src": "/images/personal_site_screenshot.png"
     },
     {
+        "name": "Spotif.AI",
+        "dates": "January 2025 - Present",
+        "github_link": "https://github.com/andywu8/Spotif.ai",
+        "key_tech": [
+            "NextJS",
+            "NodeJS",
+            "Postgres",
+            "SpotifyAPI"
+        ],
+        "description": "Spotify AI that allows you to generate playlists based on your preferences",
+    },
+    {
         "name": "Character Clash",
-        "dates": "Sep 2023 - Present",
+        "dates": "Sep 2023 - November 2023",
         "github_link": "https://github.com/andywu8/fictional-character-battles",
-        "key_tech": ["Flask", "PostgreSQL", "Python", "HTML", "CSS", "JS"],
-        "description":"Vote on your favorite characters as they fight fictional battles.",
+        "key_tech": [
+            "Flask",
+            "PostgreSQL",
+            "Python",
+            "HTML",
+            "CSS",
+            "JS"
+        ],
+        "description": "Vote on your favorite characters as they fight fictional battles.",
         "img_src": ""
     },
     {
         "name": "TutorialCreate",
         "dates": "Oct 2023",
         "github_link": "https://github.com/andywu8/TutorialCreate",
-        "key_tech": ["Typescript", "ReactJS", "Axios", "NodeJS", "Sequelize", "SQLite3"],
-        "description":"TutorialCreate is a website that allows you to create and share tutorials with others.",
+        "key_tech": [
+            "Typescript",
+            "ReactJS",
+            "Axios",
+            "NodeJS",
+            "Sequelize",
+            "SQLite3"
+        ],
+        "description": "TutorialCreate is a website that allows you to create and share tutorials with others.",
         "img_src": "/images/tutorial_create.png"
     },
-    
     {
         "name": "Course Registration",
         "dates": "Oct 2023 ",
         "github_link": "https://github.com/andywu8/hackernews-ts-graphql",
-        "key_tech": ["Java", "Spring Boot", "ReactJS", "Axios", "Bootstrap"],
-        "description":"Course registration website. Java/Spring Boot backend with ReactJS frontend using Axios.",
+        "key_tech": [
+            "Java",
+            "Spring Boot",
+            "ReactJS",
+            "Axios",
+            "Bootstrap"
+        ],
+        "description": "Course registration website. Java/Spring Boot backend with ReactJS frontend using Axios.",
         "img_src": "/images/courses_springboot.png"
     },
     {
         "name": "Noteshare",
-        "dates": "Oct 2023 - Present",
+        "dates": "Oct 2023 - November 2023",
         "github_link": "https://github.com/andywu8/django-note-app",
-        "key_tech": ["Django", "SQL", "HTML", "Bootstrap"],
-        "description":"Note taking app built in Django that allows you to edit, delete, and share notes with friends.",
+        "key_tech": [
+            "Django",
+            "SQL",
+            "HTML",
+            "Bootstrap"
+        ],
+        "description": "Note taking app built in Django that allows you to edit, delete, and share notes with friends.",
         "img_src": "/images/noteshare.png"
     },
     {
         "name": "Hacker News",
-        "dates": "Oct 2023 - Present",
+        "dates": "Oct 2023",
         "github_link": "https://github.com/andywu8/hackernews-ts-graphql",
-        "key_tech": ["Typescript", "GraphQL", "Prisma", "Apollo Server"],
-        "description":"Hacker News clone built in Typescript, GraphQL, and Prisma.",
+        "key_tech": [
+            "Typescript",
+            "GraphQL",
+            "Prisma",
+            "Apollo Server"
+        ],
+        "description": "Hacker News clone built in Typescript, GraphQL, and Prisma.",
         "img_src": "/images/hackernews.png"
     },
     {
         "name": "Youtube Video Generator ",
         "dates": "Oct 2023",
         "github_link": "https://github.com/andywu8/Langchain-ChatGPT-App",
-        "key_tech": ["Python", "Langchain", "OpenAI API", "Streamlit"],
-        "description":"Streamlit for the frontend with Langchain backend using sequential chain to generate Youtube video title and script.",
+        "key_tech": [
+            "Python",
+            "Langchain",
+            "OpenAI API",
+            "Streamlit"
+        ],
+        "description": "Streamlit for the frontend with Langchain backend using sequential chain to generate Youtube video title and script.",
         "img_src": "/images/youtube_langchain.png"
     },
     {
         "name": "Polls",
-        "dates": "Sep 2023 - Present",
+        "dates": "Sep 2023",
         "github_link": "https://github.com/andywu8/andywu-personal-site-v2",
-        "key_tech": ["Django", "SQL", "HTML"],
-        "description":"Create polls and allow others to vote.",
+        "key_tech": [
+            "Django",
+            "SQL",
+            "HTML"
+        ],
+        "description": "Create polls and allow others to vote.",
         "img_src": ""
     },
-    
     {
         "name": "Loyalist API",
         "dates": "April 2023",
         "github_link": "https://github.com/andywu8/loyalist_api",
-        "key_tech": ["Python", "ChatGPT"],
-        "description":"Chat GPT Powered API to parse over Menu Data and return Answers to Questions",
+        "key_tech": [
+            "Python",
+            "ChatGPT"
+        ],
+        "description": "Chat GPT Powered API to parse over Menu Data and return Answers to Questions",
         "img_src": ""
     },
     {
         "name": "Mutuals",
         "dates": "2022",
         "github_link": "https://github.com/andywu8/cs419-finalproject",
-        "key_tech": ["Flask", "SQL", "Python", "HTML", "CSS", "JS"],
-        "description":"Match Making App that allows you to match friends of friends",
+        "key_tech": [
+            "Flask",
+            "SQL",
+            "Python",
+            "HTML",
+            "CSS",
+            "JS"
+        ],
+        "description": "Match Making App that allows you to match friends of friends",
         "img_src": ""
     },
     {
         "name": "Curbside",
         "dates": "2022",
         "github_link": "https://github.com/BenTheNetizen/DiStasio-Project",
-        "key_tech":["ReactJS", "SQL"],
-        "description":"Google Docs for Doctors",
+        "key_tech": [
+            "ReactJS",
+            "SQL"
+        ],
+        "description": "Google Docs for Doctors",
         "img_src": ""
     },
     {
         "name": "Predict.ai",
         "dates": "2021",
         "github_link": "https://github.com/andywu8/hackday-predict.ai",
-        "key_tech": ["Flask",  "NumPy", "Pandas", "Plotly"],
-        "description":"Full stack + ML app to predict car insurance by states",
+        "key_tech": [
+            "Flask",
+            "NumPy",
+            "Pandas",
+            "Plotly"
+        ],
+        "description": "Full stack + ML app to predict car insurance by states",
         "img_src": ""
-
     },
     {
         "name": "Simmer",
         "dates": "2021",
         "github_link": "https://github.com/andywu8/simmer",
-        "key_tech":["ReactJS", "Firebase"],
-        "description":"View Cooking Recipes",
+        "key_tech": [
+            "ReactJS",
+            "Firebase"
+        ],
+        "description": "View Cooking Recipes",
         "img_src": ""
-
     }
-
-
 ]
