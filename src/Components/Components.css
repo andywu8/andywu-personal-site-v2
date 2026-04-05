@@ -1,32 +1,4 @@
-.Card {
-    display: inline-block;
-    padding: 10px 20px;
-    width: 80%;
-    block-size: fit-content;
-    padding:10px; 
-    margin-top:10px; 
-    height: 250px;
-    border-radius: 10px;
-    border: 2px solid black;
-    background-color: white;
-    color:black;
-}
-
-.left { 
-  min-height: 100vh;
-  display: flex;
-  float: left;
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* align-content: flex-start; */
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #0096FF;
-}
-
-
-.company_logo {
-  width: 50%;
-  /* max-width:100%; */
-  height: 50%;
+/* global nav active state (react-scroll activeClass) */
+.nav-active {
+  color: #f1f5f9 !important;
 }

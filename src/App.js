@@ -1,51 +1,52 @@
 import './App.css';
 import React from "react";
-import Internships from './Components/Internships'
-import Projects from './Components/Projects'
-import Navbar from './Components/Navbar' 
+import Internships from './Components/Internships';
+import Projects from './Components/Projects';
+import Navbar from './Components/Navbar';
 import About from './Components/About';
+import CursorTrail from './Components/CursorTrail';
 import CssBaseline from '@mui/material/CssBaseline';
-// import { ThemeProvider, createTheme } from '@material-ui/core/styles'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import { Button } from '@mui/material';
 
-
-const themeLight = createTheme({
-  palette: {
-    mode: 'light'
-  },
-});
-
-const themeDark = createTheme({
+const theme = createTheme({
   palette: {
     mode: 'dark',
+    background: {
+      default: '#0a0a0f',
+      paper: '#13131a',
+    },
+    primary: {
+      main: '#a78bfa',
+    },
+    text: {
+      primary: '#f1f5f9',
+      secondary: '#94a3b8',
+    },
+  },
+  typography: {
+    fontFamily: '"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
   },
 });
-function App() {
-  const [light, setLight] = React.useState(true);
-  
-  return (
-    <ThemeProvider theme={light ? themeLight : themeDark}>
-    {/* <ThemeProvider theme={themeLight}> */}
-      <CssBaseline />
-      <CssBaseline enableColorScheme />
-        <body className="App-body">
 
-          <Navbar />
+function App() {
+  return (
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <div className="App-body">
+        <CursorTrail />
+        <Navbar />
+        <main style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 2rem', width: '100%' }}>
           <section id="about-me">
             <About />
-            <br></br>
-          </section>
-          {/* TODO: Fix toggle theme button */}
-          {/* <Button variant="contained" onClick={() => setLight(prev => !prev)}>Toggle Theme</Button> */}
-
-          <section id="projects">
-            <Projects />
           </section>
           <section id="experience">
             <Internships />
           </section>
-        </body>
+          <section id="projects">
+            <Projects />
+          </section>
+        </main>
+      </div>
     </ThemeProvider>
   );
 }
